@@ -1,66 +1,22 @@
-## Foundry
+# Ethereum Projects using Foundry 🛠️💻
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This repository contains a collection of smart contract projects built on **Ethereum** using [Foundry](https://book.getfoundry.sh/) — a blazing fast, portable, and modular toolkit for Ethereum application development written in Rust.
 
-Foundry consists of:
+---
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## 📦 About
 
-## Documentation
+Each project in this repository explores different Ethereum smart contract concepts and use-cases. All contracts are written in **Solidity**, tested using **Foundry's Forge**, and focus on both functionality and gas-efficiency.
 
-https://book.getfoundry.sh/
+### ✅ Included Projects
 
-## Usage
+- 🐦 **Twitter Clone**  
+  Tweeting, operator-based access control, following/unfollowing users, and retrieving latest tweets.
 
-### Build
+- 💰 **Crowdfunding Platform**  
+  Allows users to create campaigns, contribute ETH, and manage fund withdrawals based on goal completion.
 
-```shell
-$ forge build
-```
+- 🗳️ **Voting System**  
+  Simple and secure voting system with voter registration, proposal creation, and vote casting with result retrieval.
 
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+---
